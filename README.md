@@ -6,7 +6,12 @@ Welcome to the Fastest Finger Scaffold! This project is designed to help hackers
 
 - **Pre-configured Wagmi**: Get started with Wagmi, a React Hooks library for Ethereum, without any setup.
 - **Integrated RainbowKit**: Easily add wallet connection functionality to your dApp with RainbowKit.
+- **Privy Integrated**: Use Privy to store and manage user data securely.
+- **Tailwind CSS**: Utilize Tailwind CSS to quickly style your project.
+- **Next.js**: Build your project with Next.js, a React framework for production.
 - **Blockchain Development Ready**: All necessary tools and libraries for blockchain development are pre-installed and configured.
+- **Optimized for Hackathons**: Spend less time setting up your development environment and more time building your project.
+
 
 ## Getting Started
 
@@ -36,7 +41,7 @@ Make sure you have the following installed on your machine:
 3. Install the dependencies:
 
     ```sh
-    npm install
+    pnpm install
     ```
 
     or
@@ -50,7 +55,7 @@ Make sure you have the following installed on your machine:
 To start the development server, run:
 
 ```sh
-npm start
+pnpm run dev
 ```
 
 or
@@ -60,6 +65,15 @@ yarn start
 ```
 
 This will launch the project in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Add ENV Variables
+- Create a `.env` file in the root directory of the project.
+- Add the following environment variables to the `.env` file:
+    ```sh
+    NEXT_PUBLIC_PRIVY_APP_ID=
+    NEXT_PUBLIC_RAINBOW_KET_ID= 
+    ```
+
 
 ## Usage
 
