@@ -2,20 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: 'atari_classicchunky';
+  src: 
+  url("atari_font.woff2") format("woff2"), 
+  url("atari_font.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'atari_classicchunky' !important;
+  /* text-align: center; */
+  background-color: antiquewhite !important;
+  height: 100%;
+} 
+.nes-input {
+  border-width: 2px !important;
 }
+
+.nes-btn {
+  border-image-slice: 1.5 !important;
+  border-image-width: 1 !important;
+  border-image-outset: 1 !important;
+}
+
+.nes-btn.smaller-btn {
+  padding: 2px;
+}
+

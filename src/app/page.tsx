@@ -31,7 +31,7 @@ export default function Home() {
       <button
         disabled={disableLogin}
         onClick={login}
-        className="bg-pink-500 cursor-pointer text-white px-4 py-2 rounded-md text-sm"
+        className="bg-white nes-btn cursor-pointer text-black px-4 py-2 rounded-md text-sm"
       >
         {privyUser?.wallet
           ? privyUser?.wallet?.address.slice(0, 4) +
@@ -48,7 +48,7 @@ export default function Home() {
           {" "}
           <button
             onClick={logout}
-            className="p-2 bg-pink-500 cursor-pointer text-white px-4 py-2 rounded-md text-sm"
+            className="p-2 nes-btn bg-white cursor-pointer text-black px-4 py-2 rounded-md text-sm"
           >
             Logout
           </button>
